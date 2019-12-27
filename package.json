@@ -1,0 +1,38 @@
+{
+  "name": "@skewfy/authentication-service",
+  "version": "0.0.1",
+  "description": "Authentication Service é uma ferramenta de autenticação para um conglomerado de serviços.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xflavioribeiro/authentication-service"
+  },
+  "main": "src/server.js",
+  "author": "Flavio Ribeiro <flavioribeiro.tech@gmail.com>",
+  "license": "UNLICENSED",
+  "scripts": {
+    "dev": "cross-env DEBUG=authentication-service:* nodemon --exec babel-node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "debug": "^4.1.1",
+    "dotenv": "^8.2.0",
+    "errorhandler": "^1.5.1",
+    "express": "^4.17.1",
+    "lodash": "^4.17.15",
+    "morgan": "^1.9.1",
+    "passport": "^0.4.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.7.7",
+    "@babel/core": "^7.7.7",
+    "@babel/node": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "@beblueapp/eslint-config-base": "^0.1.0",
+    "babel-eslint": "^10.0.3",
+    "cross-env": "^6.0.3",
+    "eslint": "^6.8.0",
+    "eslint-plugin-babel": "^5.3.0",
+    "eslint-plugin-import": "^2.19.1",
+    "nodemon": "^2.0.2"
+  }
+}
