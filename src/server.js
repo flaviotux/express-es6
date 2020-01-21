@@ -2,7 +2,7 @@ import errorHandler from 'errorhandler'
 
 import app from './app'
 
-const debug = require('debug')('authentication-service:server')
+const debug = require('debug')('express-es6:server')
 
 /**
  * Error Handler. Provides full stack - remove for production
