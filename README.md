@@ -1,3 +1,3 @@
-# Authentication Service
+# Express ES6
 
-> Authentication Service é uma ferramenta de autenticação para um conglomerado de serviços.
+> Boilerplate for Express Node.js framework to ES6.
