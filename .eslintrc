@@ -3,9 +3,7 @@
   "parserOptions": {
     "ecmaVersion": 6
   },
-  "extends": [
-    "@beblueapp/eslint-config-base"
-  ],
+  "extends": ["airbnb-base"],
   "env": {
     "node": true,
     "es6": true
