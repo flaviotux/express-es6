@@ -17,7 +17,7 @@
     "debug": "^4.3.3",
     "dotenv": "^10.0.0",
     "errorhandler": "^1.5.1",
-    "express": "^4.17.2",
+    "express": "^4.17.3",
     "lodash": "^4.17.21",
     "morgan": "^1.10.0",
     "passport": "^0.6.0"
